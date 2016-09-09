@@ -2,7 +2,7 @@
 .heads{width:100%; }
 /*******头部第一行******/
 .heads .heads-top{ width:1300px; margin: 0 auto; height:38px; line-height:38px; position: relative;  }
-.heads .heads-top .t-login { float: right; font-size: 14px;}
+.heads .heads-top .t-login { float: right; font-size: 14px;margin-right: 100px;}
 .heads .heads-top .t-login a{ color: #009600; margin: 0 8px; }
 /*******logo搜索区******/
 .heads .logosea{ width:100%; height:103px; }
@@ -21,8 +21,8 @@
 .heads .navs .nav .left-nav .s-nav h1{ height: 54px; font-size: 20px; color: #fff; background: #0a7200; line-height: 54px; text-align: center; }
 .heads .navs .nav .left-nav .s-nav .ico{ vertical-align: top; margin-left: 10px; width:15px; height:54px; background:url(../img/jt.png) no-repeat center center;}
 .heads .navs .nav .left-nav .s-nav.act .ico{ background-image: url(../img/jth.png)}
-.heads .navs .nav .left-nav .s-nav .small { position:absolute; width: 200px; height: 550px;  }
-.heads .navs .nav .left-nav li { height: 65px; border-bottom: solid 1px #ccc; background: url(../img/dot.png) no-repeat #fff; position:relative; }
+.heads .navs .nav .left-nav .s-nav .small { position:absolute; width: 200px; height: 550px; background-color: #fff; }
+.heads .navs .nav .left-nav li { height: 65px; border-bottom: solid 1px #f2f2f2; background: url(../img/dot.png) no-repeat #fff; position:relative; }
 .heads .navs .nav .left-nav li a { display: block; font-size: 20px; color: #333;  line-height: 65px; padding-left: 70px;  }
 .heads .navs .nav .left-nav li.dot1{ background-position: 36px 24px; }
 .heads .navs .nav .left-nav li.dot2{ background-position: 36px -34px; }
@@ -47,12 +47,13 @@
 .heads .navs .nav .right-nav li { float: left; padding-left:15px; height: 54px; }
 .heads .navs .nav .right-nav a { display: block; padding:0 20px; font-size: 20px; color: #666; line-height: 54px; }
 
+
 /**********************************2016.08.31***********************************/
 .heads .navs .nav .left-nav .snav{ text-align:center; display:none; position:absolute;  left:200px; top:0; width:200px; height:550px; background:rgba(255,255,255,0.9); }
 .heads .navs .nav .left-nav .snav a{ display:inline-block; color:#0a7200; margin:17px 0 18px; padding:0; line-height:30px; border-bottom:1px solid transparent; font-size: 18px;}
-.heads .navs .nav .left-nav .snav a:hover{ border-bottom-color:#0a7200;}
+.heads .navs .nav .left-nav .snav a:hover{ border-bottom-color:#0a7200;color:#0a7200;}
 .heads .navs .nav .left-nav .snav span{ display:block; text-align:center;}
-.heads .navs .nav .left-nav li:hover .snav { display:block;}
+.heads .navs .nav .left-nav li:hover .snav { display:block;} 
 .heads .navs .nav .right-nav a:hover { background:#0a7200; padding:0 20px; color:#fff; height:54px;}
 
 .Pic{ position:relative;}
@@ -76,7 +77,8 @@
 .ct04{ background-image: url(../img/ct04.png)}
 .ct05{ background-image: url(../img/ct05.png)}
 .ct06{ background-image: url(../img/ct06.png)}
-sub{font-size:14px;vertical-align: text-bottom;margin-left: 3px;}
+.ct07{ background-image: url(../img/ct07.png)}
+sub{font-size:24px;vertical-align: text-bottom;margin-left: 3px;}
 
 .tj ul{ margin-left: -3.633%;}
 .tj li{ float:left; width:29.7%; margin-left: 3.633%; background: #fff; }
@@ -135,13 +137,12 @@ sub{font-size:14px;vertical-align: text-bottom;margin-left: 3px;}
 .pic .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
 	bottom: 20px;
 }
-
 /**********************************礼品码兑换***********************************/
 
-.code-rom { width:1300px; margin:0 auto;}
+.code-rom { width:1300px;margin:0 auto;}
 .code-rom .code-img { width:340px; height:450px; padding-left:180px; padding-top: 60px;  float:left; padding-bottom:100px;}
 .code-rom .code-ipt { float:left; padding-top:100px; padding-left:200px;}
-.code-rom .code-ipt h1 { font-size:30px; color:#333;}
+.code-rom .code-ipt h1 { font-size:30px; color:#0a7100;}
 .code-rom .code-ipt .bx-line1 { padding-bottom:33px; padding-top:40px;}
 .code-rom .code-ipt span { font-size:18px; color:#333;}
 .code-rom .code-ipt .bx-line1 input { height:30px; border-radius:5px; width:230px; padding-left: 8px; font-size:14px;}

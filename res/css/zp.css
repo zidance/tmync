@@ -1,0 +1,13 @@
+@charset 'utf-8';
+.cz_container{background-color:#502105;width:100%;}
+.cz_container .cz_top{background:url(../images/cz_top.jpg) no-repeat center top;width:100%;height:1063px;}
+.cz_container .cz_top .cz_toptile{width:801px;height:441px;padding-top:166px;}
+
+.cz_container .cz_content{margin-top:-195px;width:1058px;}
+.cz_container .cz_content p{margin-top:100px;}
+
+.cz_container .cz_show{background:url(../images/cz_show_bg.jpg) no-repeat center center;width:100%;height:1622px;}
+.cz_container .cz_show .cz_show_pic{width:1257px;padding-top:45px;}
+
+.cz_container .cz_why{background-color:#f6f6f6;}
+.cz_container .cz_why .cz_why_pic{width:1226px;padding-top:72px;}
