@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>分类</title>
+	<link rel="stylesheet" type="text/css" href="/UBT1/common/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/UBT1/dingyue/css/dy_index.css">
+</head>
+<body>
+  <!-- 搜索开始 -->
+  <!-- <section id="top_search">
+  	<p><input type="text" id="search" placeholder="请输入你想要的新鲜"></p>
+  </section> -->
+  <!-- 搜索结束 -->
+	<!-- 分类开始 -->
+	<section id="dy_category">
+		 <ul>
+		 <volist name="category" id="vo">
+		 	<li>
+		 	  <a href="http://weidian.benditom.com/shopMerchandiseList.do?shop_id=1483&category_id={$vo.mc_id}">
+		 	     <img src="http://weidian.benditom.com/img/shop/{$vo.category_picture}" alt="">
+		 	     <p class="l-1">{$vo.category_name|gbk_utf}</p>
+		 	  </a>
+		 	</li>
+		 </volist>
+		 </ul>
+	</section>
+	<!-- 分类结束 -->
+	<!-- 底部开始 -->
+	<footer>
+		<ul>
+			<li><a href="http://wx.ubaitong.com/ShopIndex.php/Home/tmncy/tmncy_index/shop_id/1483"><img src="/UBT1/dingyue/img/home.png" alt=""><p>首页</p></a></li>
+			<li><a href="http://wx.ubaitong.com/ShopIndex.php/Home/tmncy/tmncy_category/shop_id/1483"><img src="/UBT1/dingyue/img/img1.png" alt=""><p>分类</p></a></li>
+			<li><a href="javascript:alert('即将开放，敬请期待')"><img src="/UBT1/dingyue/img/select4.png" alt="" id="select"></a></li>
+			<li><a href="javascript:alert('即将开放，敬请期待')"><img src="/UBT1/dingyue/img/img5.png" alt=""><p>会员套餐</p></a></li>
+			<li><a href="http://weidian.benditom.com/memberIndex.do?shop_id=1483"><img src="/UBT1/dingyue/img/member1.png" alt=""><p>会员中心</p></a></li>
+		</ul>
+	</footer>
+	<!-- 底部结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/UBT1/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="/UBT1/dingyue/js/dy_index.js"></script>
